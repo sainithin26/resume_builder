@@ -1,0 +1,155 @@
+.container{
+    min-width: 700px;
+    flex:1;
+    max-width: 800px;
+    min-height: 1118px;
+    box-shadow: 1px 1px 0px 2px rgba(0,0,0,0.12);
+    display: flex;
+    flex-direction: column;
+    margin:0px auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.header{
+    display:flex;
+    flex-direction: column;
+}
+.header .heading{
+    font-size: 2rem;
+    text-align: center;
+    padding:20px 0px 0px 0px;
+    text-transform: uppercase;
+    color:#196da5;
+    font-weight: bold;
+}
+.header .subheading{
+    font-size: 1.2rem;
+    text-align: center;
+    padding:0px;
+}
+.links{
+    font-size: 0.8rem;
+    display: flex;
+    justify-content: center;
+    margin:5px 15px 0px 15px;
+}
+.link{
+    display:flex;
+    font-size: 0.8rem;
+    text-align: center;
+    margin-bottom:15px;
+}
+.sectionTitle{
+    font-size: 1.2rem;
+    color:#196da5;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+hr{
+    margin: 2px 0px 3px;
+}
+.career{
+    display:flex;
+    flex-direction: column;
+    margin:5px 55px 5px 55px;
+}
+.obj{
+    margin:5px 0px 0px 0px;
+    color:rgb(56, 55, 55);
+    width:90%;
+}
+.education{
+    display:flex;
+    flex-direction: column;
+    margin:10px 55px 5px 55px;
+}
+.univ{
+    display: flex;
+    margin-top: 10px;
+}
+.edu{
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    gap:5px;
+}
+.educ{
+    display: flex;
+    gap:2px;
+}
+.college{
+    text-transform: capitalize;
+    font-weight: bold;
+}
+.course{
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.date{
+    text-transform: capitalize;
+}
+.percentage{
+    color:rgb(56, 55, 55);
+}
+.workExp{
+    margin:10px 55px 5px 55px;
+}
+.workWidth{
+    width:100%;
+    margin-top: 10px;
+}
+.content{
+    display:flex;
+    gap: 200px;
+    margin-top: 5px;
+}
+.item{
+    display: flex;
+    flex-grow: 1;
+}
+.company{
+    font-size: 1.1rem;;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+.slash{
+    margin: 0px 5px;
+    font-weight: bold;
+}
+.role{
+    font-size: 1rem;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+.deploy{
+    font-size: 1rem;
+}
+.point{
+    margin:5px 40px;
+    color:rgb(56, 55, 55);
+    width:90%;
+}
+.skills{
+    margin:10px 55px 5px 55px;
+    display: flex;
+    flex-direction: column;
+}
+.skill{
+    margin: 10px 0px 0px ;
+    display:flex;
+}
+.lan{
+    text-transform: capitalize; 
+    width: 200px;
+    display: inline-block; 
+}
+.skl{
+    color:rgb(56, 55, 55);
+    text-transform: uppercase;  
+    font-size:0.9rem;
+}
+.projects{
+    margin:10px 55px 5px 55px;
+}
+.project{
+    margin-top: 10px;
+}

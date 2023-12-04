@@ -1,0 +1,97 @@
+.container{
+    min-width: 550px;
+    max-height: 550px;
+    display:flex;
+    flex-direction: column;
+    gap:30px;
+    box-shadow: 1px 1px 4px rgba(0,0,0,0.12);
+    padding-top: 5px;
+    margin: 0px 10px;
+}
+.header{
+    display:flex;
+    gap:15px;
+    overflow-x: auto;
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+}
+.header .section{
+    padding:10px;
+    border-bottom: 2px solid transparent;
+    font-weight: 500;
+    font-size: 1rem; 
+    white-space: nowrap;
+    cursor: pointer;
+}
+.header .active{
+    color:#3a97d4;
+    border-bottom: 1px solid #3a97d4;
+    font-weight: bold;
+}
+.body{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 0px 30px;
+}
+.detail{
+    display:flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.detail .row{
+    display: flex;
+    gap:30px
+}
+.detail .row > div{
+    flex:1;
+}
+.detail .column{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+}
+.chips{
+    display:flex;
+    gap:20px;
+    align-items: center;
+}
+.chip{
+    display: flex;
+    gap:10px;
+    background-color: gray;
+    padding:5px 10px;
+    border-radius: 20px;
+    align-items: center;
+    cursor:pointer
+}
+.chip p{
+    color:white;
+    font-size: 1rem;
+    cursor: pointer;
+}
+.chip svg{
+    color:white;
+    height:18px;
+    width:18px;
+    cursor:pointer;
+}
+.chips .active{
+    background-color: #3a97d4;
+}
+.body button{
+    width:fit-content;
+    border-radius:6px;
+    background-color: #3a97d4;
+    font-size: 1rem;
+    color:white;
+    padding:8px 20px;   
+    border: 0;
+    outline:0;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+.new{
+    color:#3a97d4;
+    font-weight: bold;
+    cursor:pointer;
+}

@@ -1,0 +1,80 @@
+.container{
+    padding:0px;
+    display:flex;
+    flex-direction: column;
+}
+.heading{
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+.download{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+.download p{
+    margin-left: 50px;
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+span{
+    color:red;
+}
+.download button{
+    border-radius:6px;
+    background-color: #3a97d4;
+    font-size: 1rem;
+    color:white;
+    padding:8px 20px;
+    border: 0;
+    outline:0;
+    margin-right: 40px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.download button svg{
+    padding-left:8px;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    gap:30px; 
+    margin: 50px 0px 100px 50px;  
+}
+.resume{
+    display: flex;
+    justify-content: center;
+}
+.resumeTemplate{
+    min-width:1000px;
+    min-height: 400px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 1px 1px 4px rgba(0,0,0,0.12);
+    gap:30px;
+}
+.subheading{
+    font-size: 1.5rem;
+    margin:25px 0px 0px 50px;
+    font-weight: bold;
+    text-align: center;
+    color:#3a97d4;
+}
+
+.images{
+    width: 270px;
+    height:350px;
+    margin:10px 30px 30px 50px;
+    cursor:pointer; 
+    transition: .5s;  
+}
+.images:hover{
+    transform: scale(1.05);
+}
+.borderImg{
+    border:1px solid black;
+}
